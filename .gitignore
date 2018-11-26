@@ -1,10 +1,6 @@
-# Ignore everything
 *
 
-# Except these .. (write files / folders that shouldn't be ignored, below)
+!src/
+!src/**
 
-!.gitignore
-
-# Don't ignore this folder
-
-# Don't ignore anything in this folder and subfolder
+*.class
