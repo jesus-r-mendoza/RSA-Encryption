@@ -1,6 +1,9 @@
+# Ignore Everything
 *
 
+# Except these files / folders (/** means and subfolders)
 !src/
 !src/**
 
+# Make sure to ignore any file that ends in .class
 *.class
