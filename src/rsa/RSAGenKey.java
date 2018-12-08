@@ -26,7 +26,7 @@ public class RSAGenKey {
         
     }
     
-    private static void useSize(String k, SecureRandom sr) {
+    protected static void useSize(String k, SecureRandom sr) {
         
         int len = Integer.parseInt(k);
         
